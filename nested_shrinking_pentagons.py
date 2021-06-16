@@ -7,10 +7,11 @@ from hex_color_sets import color_sets
 
 pen = t.Turtle()
 pen.speed(0)
-pen.color('red')
 
-#color_set = ['#292a2c', '#6a1611', '#bc342d', '#85201b', '#bababb']
-color_set = color_sets.HHteal
+color_set = color_sets.bakugou_katsuki_mha
+
+pen.color(r.choice(color_set))
+
 
 
 pen.getscreen().bgcolor('black')
