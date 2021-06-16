@@ -10,7 +10,7 @@ pen.speed(0)
 pen.color('red')
 
 #color_set = ['#292a2c', '#6a1611', '#bc342d', '#85201b', '#bababb']
-color_set = color_sets.kirishima_eijirou
+color_set = color_sets.HHteal
 
 
 pen.getscreen().bgcolor('black')
