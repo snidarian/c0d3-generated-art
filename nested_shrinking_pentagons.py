@@ -23,13 +23,14 @@ def draw_pentagon(size) -> None:
         for _ in range(5):
             pen.forward(size)
             pen.right(72)
+        # sets up to create next inner pentagon
         pen.right(72)
         pen.penup()
         pen.forward(5)
         pen.left(72)
         pen.pendown()
         pen.color(r.choice(color_set))
-        draw_pentagon(size -3)
+        draw_pentagon(size-10)
 
 
 
