@@ -9,6 +9,7 @@ pen.speed(0)
 pen.color('red')
 
 color_set = ['#292a2c', '#6a1611', '#bc342d', '#85201b', '#bababb']
+
 pen.getscreen().bgcolor('black')
 
 
