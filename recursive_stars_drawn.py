@@ -6,7 +6,7 @@ import turtle
 import random as r
 
 pen = turtle.Turtle()
-turtle.bgcolor('blue')
+pen.getscreen().bgcolor('blue')
 pen.color('yellow')
 pen.width(1)
 pen.speed(7)
