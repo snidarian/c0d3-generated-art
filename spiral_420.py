@@ -8,7 +8,7 @@ import math
 pen = turtle.Turtle()
 pen.color('yellow', 'red')
 pen.speed(0)
-turtle.bgcolor('green')
+pen.getscreen().bgcolor('green')
 
 
 for _ in range(100000):
