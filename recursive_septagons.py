@@ -12,14 +12,19 @@ def draw_septagons(size) -> None:
         return
     else:
         for _ in range(7):
-            pen.forward(size * 3)
+            pen.forward(size * 2)
             draw_septagons(size/2)
             pen.left(51.42857)
 
 
 
+def main(size):
+    draw_septagons(size)
 
-draw_septagons(25)
+
+
+
+main(50)
 
 
 
