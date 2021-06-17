@@ -38,9 +38,12 @@ def draw_hexagon(size) -> None:
             pen.right(60)
 
 
+def main(size):
+    draw_hexagon(size)
 
-draw_hexagon(100)
+    
 
+main(100)
 
 
 
