@@ -10,11 +10,11 @@ pen.speed(0)
 
 
 def draw_hexagon(size) -> None:
-    if size < 2:
+    if size < 3:
         return
     else:
         for _ in range(6):
-            pen.forward(size * 2)
+            pen.forward(size)
             draw_hexagon(size/2)
             pen.right(60)
 
